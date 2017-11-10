@@ -47,7 +47,7 @@ module.exports = function(app) {
 		})
 	});
 
-	app.get("/api/human", function(req, res) {
+	app.get("/api/artisan", function(req, res) {
 
 		db.Components.findAll({
 
