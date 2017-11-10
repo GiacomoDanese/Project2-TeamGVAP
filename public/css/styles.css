@@ -1,0 +1,38 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("../images/back7.png");
+} 
+
+.navbar {
+	background-color: #004A63;
+}
+
+.navbar-text {
+	font-size: 17px;
+}
+
+.container {
+	width: 100%;
+}
+
+.card {
+	margin-top: 100px;
+	background-color: #004A63
+
+}
+
+.comp-img {
+	width: 90px;
+	height: 90px;
+}
+
+.glyphicon {
+	text-orientation: center;
+}
+
+
+

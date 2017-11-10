@@ -1,0 +1,52 @@
+
+<!-- <h1></h1>
+
+
+<ul>
+  {{#each stuff}}
+    <li>
+      <a href="#">
+        <span class="glyphicon glyphicon-minus-sign"></span>
+      </a>
+      <p>{{item_type}}</p>
+      <p>{{item_name}}</p>
+      <a href="#">
+        <img id="comp-img" src={{item_img}}>
+      </a>
+      <p>{{item_price}}</p>
+
+      <a href="#">
+        <span class="glyphicon glyphicon-plus-sign"></span>
+      </a><
+    </li> 
+  {{/each}}
+</ul>   --> 
+
+
+<div class="container components-conatiner">
+{{#each stuff}}
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <a href="#">
+                        <span class="glyphicon glyphicon-minus-sign">
+                        </span>
+                    </a>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <p>{{item_type}}</p>
+                    <p>{{item_name}}</p>
+                    <a href="#">
+                        <img class="comp-img" src={{item_img}}>
+                    </a>
+                    <p>{{item_price}}</p>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <a href="#">
+                        <span class="glyphicon glyphicon-plus-sign">
+                        </span>
+                    </a>    
+                </div>    
+            </div>
+
+            <br>
+{{/each}}

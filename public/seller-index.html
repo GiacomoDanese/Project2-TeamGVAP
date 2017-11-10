@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Comp0n1</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <!-- Bootstrap jQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <!--Bootstrap JS  -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  <!-- Popper.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" media="screen" title="no title" href="css/styles.css"></link>
+</head>
+
+<body>
+
+<div class = "container">
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">Comp0n1</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"><i class="fa fa-usd"></i> Sell Components<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa fa-shopping-bag"></i> Buy Components</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa fa-desktop"></i> Buy Premade Computers </a>
+        </li>
+      </ul>
+      <span class="navbar-text"><i class="fa fa-quote-left"></i> computers and components for mortals and gods <i class="fa     fa-quote-right"></i>
+      </span>
+    </div>
+  </nav>
+
+  <div class="card text-white mb-3" style="max-width: 300rem;">
+    <div class="card-header"><i class="fa fa-list-ul" aria-hidden="true"></i> Seller's Form</div>
+
+      <div class="card-body">
+
+        <form role="form"> 
+
+          <div class="form-group">
+              <label for="name">Item Name:</label>
+              <input type="text" class="form-control" id="name-item">
+          </div>
+
+          <div class="form-group">
+              <label for="type-item">Item Type:</label>
+              <select class="form-control" id="type-item">
+                  <option value="processor">Processor</option>
+                  <option value="motherboard">Motherboard</option>
+                  <option value="power-supply">Power-Supply</option>
+                  <option value="storage">Storage</option>
+                  <option value="memory">Memory</option>
+                  <option value="graphics-card">GPU</option>
+                  <option value="case">Case-</option>
+              </select>             
+            </div>
+
+          <div class="form-group">
+              <label for="name">Item Price:</label>
+              <input type="text" class="form-control" id="price-item">
+          </div>
+          
+          <button type="button" id="seller-submit" class="btn btn-secondary"><i class="fa fa-database"></i> Submit</button>
+        </form>
+      </div>
+  </div>
+</div>
+
+  <!--External Javascript  -->
+  <script type="text/javascript" src="js/view.js"></script>
+</body>
+</html>

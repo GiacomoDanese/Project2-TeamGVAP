@@ -1,0 +1,12 @@
+
+<h1>What are you?</h1>
+
+<ul>
+	{{#each tiers}}
+	  <li>
+	  	<P>{{tier_name}}</P>
+	  	<img src={{tier_image}}>
+	  </li>
+	  <a href="/api/{{this.tier_name}}">Display Components</a>
+	{{/each}} 
+</ul>	 		
